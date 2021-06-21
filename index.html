@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Agenda de Kelvin</title>
+        <link rel = "stylesheet" href="index.css"/>
+    </head>
+    <body onload="cargarContactos()">
+        <div class="form" id="form" method="post">
+            <label for="Nombre" class="name" id="name">Nombre:</label>
+            <input type="text" name="TxtNombre" id="TxtNombre" placeholder="Ingrese un nombre" autocomplete="off">
+            <label for="Apellido" class="lastname">Apellido:</label>
+            <input type="text" name="TxtApellido" id="TxtApellido" placeholder="Ingrese un apellido" autocomplete="off">
+            <label for="Telefono" class="number">Telefono:</label>
+            <input type="number" name="TxtTelefono" id="TxtTelefono" placeholder="Ingrese un telefono" autocomplete="off">
+            <button class="btn_enviar" id="btn_enviar" type="submit">Enviar</button>
+        </div>
+        <div id="Cuerpo">
+        </div>
+    </body>
+    <script type="text/javascript" src="index.js"></script>
+</html>

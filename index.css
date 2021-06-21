@@ -1,0 +1,22 @@
+
+
+
+p {
+    height: auto;
+    float: left;
+    color: rgb(0, 83, 94);
+    font-size: 25px;
+    margin: 30px 30px 30px 30px;
+    transition: 0.8s;
+    transition-property: color, transform;
+    border-radius: 30%;
+}
+
+p:hover {
+    color: #FF5733;
+    transform: scale(1.3);
+}
+
+body{
+    background-color:lightgray;
+}
